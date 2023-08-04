@@ -1,0 +1,51 @@
+{
+  "name": "uknow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest --ui",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/mochiy-pop-one": "^5.0.5",
+    "@fontsource/poppins": "^5.0.5",
+    "@fontsource/source-code-pro": "^5.0.5",
+    "@mui/base": "^5.0.0-beta.8",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/joy": "^5.0.0-alpha.89",
+    "@mui/lab": "^5.0.0-alpha.138",
+    "@mui/material": "^5.14.2",
+    "@mui/system": "^5.14.1",
+    "@tanstack/react-query": "^4.32.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@uiw/react-md-editor": "^3.23.5",
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "@vitest/ui": "^0.34.1",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "jsdom": "^22.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.1"
+  }
+}
